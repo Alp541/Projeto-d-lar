@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fundo-1 {
+    background-color: rgb(188, 196, 203);
+}
+
+.conteudo {
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+.conteudo input, .conteudo button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#valorEmReais {
+    padding: 10px;
+}
+
+.navbar-brand img {
+    max-width: 100px;
+    max-height: 50px;
+}
+
+@media screen and (max-width: 750px) {
+    .conteudo {
+        width: 90%;
+    }
+}
+
+#resultado {
+    color: #fff;
+}
